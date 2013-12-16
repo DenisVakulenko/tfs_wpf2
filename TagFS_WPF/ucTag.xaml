@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="TagsFS_WPF.ucTag"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignWidth="300" Height="21" Margin="0,0,0,2">
+    <Grid Height="21" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="pull" Height="21" Margin="0,0,52,0" VerticalAlignment="Top" Click="Button_Click_1" HorizontalAlignment="Right" Width="47"/>
+        <TextBox x:Name="txtName" Height="21" TextWrapping="Wrap" VerticalAlignment="Top" MaxLines="1" Margin="0,0,104,0" TextChanged="txtName_TextChanged"/>
+        <Button Content="delete" Height="21" VerticalAlignment="Top" Click="Button_Click_2" HorizontalAlignment="Right" Width="47"/>
+    </Grid>
+</UserControl>
